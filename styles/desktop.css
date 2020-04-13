@@ -79,7 +79,7 @@ body {
     color: rgb(26, 25, 25);
 }
 
-.div-one-after-nav {
+/* .div-one-after-nav {
   background-image: url(images/image3.png);
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -119,5 +119,80 @@ body {
   background-color: #000;
   display: grid;
   grid-template-rows: 1fr 1fr;
+} */
 
+.div3 {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div3 h2 {
+  color: orangered;
+  font-weight: 700;
+}
+
+.inside-div3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.inside-div3 h4 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 28px;
+  line-height: 20px;
+}
+
+.inside-div3 div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.inside-div3 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.inside-div3 a:hover {
+  text-decoration: underline;
+  color: orangered;
+}
+
+.inside-div3 p {
+  font-size: 13px;
+  margin-top: 0;
+  color: #AAAAAA;
+}
+
+.div4 {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div4 h4 {
+  font-weight: 700;
+}
+
+.div4 li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 16px;
+}
+
+.div4 a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.div4 a:hover {
+  color: black;
 }
