@@ -55,7 +55,7 @@ body {
 #icon {
     height: 48px;
     width: 48px;
-    border-left: 1px solid #aaa;
+    border-left: 1px solid rgb(226, 216, 216);
     align-items: center;
 }
 
@@ -63,4 +63,18 @@ body {
    font-size: 17px;
    margin-left: 18px;
    margin-top: 15px;
+}
+
+#nav3 {
+    height: 30px;
+    background-color: rgb(255, 233, 34);;
+    padding-left: 1.1rem;
+    padding-top: .3rem;
+    align-items: center;
+    font-size: 14px;
+}
+
+#nav3 a {
+    text-decoration: none;
+    color: rgb(26, 25, 25);
 }
