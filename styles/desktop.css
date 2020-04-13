@@ -13,7 +13,7 @@ body {
     height: 32px;
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     padding-left: 1rem;
     padding-right: 1rem;
     font-family: 'Roboto', sans-serif;
@@ -77,4 +77,47 @@ body {
 #nav3 a {
     text-decoration: none;
     color: rgb(26, 25, 25);
+}
+
+.div-one-after-nav {
+  background-image: url(images/image3.png);
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 1rem;
+}
+
+.inside1-div-one-after-nav {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  height: 32rem;
+  background-image: url("../images/image4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.inside2-div-one-after-nav {
+  height: 14.6rem;
+  background-image: url("../images/image5.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: yellow;
+  margin: 0;
+  padding: 0;
+}
+.inside3-div-one-after-nav {
+  height: 14.6rem;
+  background-image: url("../images/image6.png");
+  background-size: ;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+
+}
+
+.middle-div-one-after-nav {
+  height: 32rem;
+  background-color: #000;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
 }
