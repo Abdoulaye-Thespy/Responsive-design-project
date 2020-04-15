@@ -6,7 +6,7 @@ body {
 }
 
 main{
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 
@@ -461,10 +461,24 @@ main{
 }
 
 .div6 .list-div6 {
-  margin-left: 0;
-  list-style-position: outside;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: .9rem;
+  color: #555555;
+}
 
+.list-div6 li{
+  margin-bottom: .7rem;
+  border-bottom: 1px solid #aaa;
+}
+.div6 .list-div6 li::before{
+  content: "\2022";  
+  color: orangered; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
 }
 
 footer {
