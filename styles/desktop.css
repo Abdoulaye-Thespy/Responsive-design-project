@@ -6,7 +6,7 @@ body {
 }
 
 main{
-  width: 80%;
+  width: 1200px;
   margin: auto;
 }
 
@@ -341,7 +341,7 @@ main{
 .div6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 40px;
 }
 
 .inside3-div6 {
@@ -473,12 +473,12 @@ main{
   border-bottom: 1px solid #aaa;
 }
 .div6 .list-div6 li::before{
-  content: "\2022";  
-  color: orangered; 
-  font-weight: bold; 
-  display: inline-block; 
-  width: 1em; 
-  margin-left: -1em; 
+  content: "\2022";
+  color: orangered;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 footer {
