@@ -6,7 +6,7 @@ body {
 }
 
 main{
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 
@@ -121,7 +121,7 @@ main{
 
 .div-one-after-nav .inside1-div-one-after-nav span {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   width: 80%;
   margin-left: 1rem;
   line-height: normal;
@@ -129,7 +129,7 @@ main{
 
 .inside2-div-one-after-nav span, .inside3-div-one-after-nav span {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   width: 80%;
   margin-left: 1rem;
   line-height: normal;
@@ -213,9 +213,9 @@ main{
   color: #AAAAAA;
 }
 
-.div4 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.div4-header {
+  /* margin-top: 2rem;
+  margin-bottom: 2rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -240,6 +240,98 @@ main{
 
 .div4 a:hover {
   color: black;
+}
+
+.div4-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20rem;
+  grid-column-gap: 0.8rem;
+}
+
+.div4-grid-col {
+  background-color: rgb(252, 252, 252);
+}
+
+.col1-image {
+  position: relative;
+  left: 1rem;
+  bottom: 15.5rem;
+}
+
+.col2-image {
+  position: relative;
+  left: 1rem;
+  bottom: 17.5rem;
+}
+
+.col4-image {
+  position: relative;
+  left: 1rem;
+  bottom: 14.1rem;
+}
+
+.div4-grid-header {
+  font-size: 1rem;
+  margin: 0;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  padding-left: 6rem;
+  background-color: rgb(255, 78, 14);
+  color: #fff;
+}
+
+.div4-grid1 {
+  height: 150px;
+  background-color: rgb(156, 89, 89);
+}
+
+.div4-grid-inner-div1{
+  padding-bottom: 1.8rem;
+  background-color: rgb(245, 209, 217);
+}
+
+.div4-grid-inner-div1 h4 {
+  margin: 0;
+  padding-left: 6rem;
+  padding-bottom: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+  
+}
+
+.div4-grid-inner-div1 h5 {
+  margin: 0;
+  padding-left: 6rem;
+  padding-top: 0;
+  font-size: 0.7rem;
+  color: #000;
+}
+
+.div4-grid-inner-div2 {
+  padding-left: 1rem;
+  color: #555555;
+}
+
+.div4-grid-inner-div2 p {
+  font-size: 0.83rem;
+}
+
+.lastp {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+  color: #555555
+}
+
+.lastp span {
+  color: #AAAAAA;
+}
+
+.fa-tag {
+  margin-left: rem;
 }
 
 
