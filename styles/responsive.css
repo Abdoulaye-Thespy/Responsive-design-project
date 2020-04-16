@@ -2,6 +2,20 @@
   main {
     width: 100%;
   }
+
+  .div6 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .inside-div3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .div4-grid{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -29,7 +43,7 @@
   .div4-grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20rem 20rem 20rem 0;
+    grid-template-rows: 320px 320px 320px 0;
     overflow: hidden;
   }
 
@@ -134,5 +148,13 @@
 
   .div4 ul {
     padding: 0;
+  }
+  .col4-image {
+    display: none;
+  }
+  .col3-image{
+    position: relative;
+    bottom: 14.5rem;
+    left: 1rem;
   }
 }

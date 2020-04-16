@@ -34,6 +34,12 @@ main {
   margin-left: 0.5rem;
 }
 
+
+#nav3 a {
+  text-decoration: none;
+  color: rgb(26, 25, 25);
+}
+
 #nav1 span a {
   text-decoration: none;
   color: #fff;
@@ -81,11 +87,6 @@ main {
   padding-top: 0.3rem;
   align-items: center;
   font-size: 14px;
-}
-
-#nav3 a {
-  text-decoration: none;
-  color: rgb(26, 25, 25);
 }
 
 .div-one-after-nav {
@@ -258,31 +259,32 @@ main {
 }
 
 .div4-grid-col {
+  position: relative;
   background-color: rgb(252, 252, 252);
 }
 
 .col1-image {
-  position: relative;
+  position: absolute;
   left: 1rem;
-  bottom: 17.5rem;
+  bottom: 15.5rem;
 }
 
 .col2-image {
-  position: relative;
+  position: absolute;
   left: 1rem;
   bottom: 15.5rem;
 }
 
 .col3-image {
-  position: relative;
+  position: absolute;
   left: 1rem;
-  bottom: 16rem;
+  bottom: 15.1rem;
 }
 
 .col4-image {
-  position: relative;
+  position: absolute;
   left: 1rem;
-  bottom: 14.1rem;
+  bottom: 15.3rem;
 }
 
 .div4-grid-header {
