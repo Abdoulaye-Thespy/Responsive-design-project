@@ -1,4 +1,11 @@
 @media only screen and (max-width: 1230px) {
+  body {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+  }
+
   main {
     width: 100%;
   }
@@ -12,7 +19,8 @@
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .div4-grid{
+
+  .div4-grid {
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -40,6 +48,13 @@
 }
 
 @media only screen and (max-width: 757px) {
+  body {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+  }
+
   .div4-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -121,6 +136,10 @@
     height: 60px;
   }
 
+  .mobile-nav2 a {
+    text-decoration: none;
+  }
+
   .mobile-nav2 p {
     font-size: 0.75rem;
     color: #000;
@@ -149,10 +168,12 @@
   .div4 ul {
     padding: 0;
   }
+
   .col4-image {
     display: none;
   }
-  .col3-image{
+
+  .col3-image {
     position: relative;
     bottom: 14.5rem;
     left: 1rem;
