@@ -139,23 +139,20 @@ main{
 .div-one-after-nav .inside1-div-one-after-nav span h2 {
   color: #fff;
   font-family: roboto;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 900;
 }
 
-.inside1-div-one-after-nav h1 {
+.inside1-div-one-after-nav img {
   position: absolute;
-  bottom: 22rem;;
+  bottom: 24rem;;
   color: #fff;
   height: 96px;
-  font-size: 8rem;
-  font-family: roboto;
 }
 
 .div-one-after-nav .inside2-div-one-after-nav span h2, .div-one-after-nav .inside3-div-one-after-nav span h2 {
   color: #fff;
-  font-family: roboto;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 900;
 }
 
@@ -431,6 +428,7 @@ main{
 .inside3-div6 span {
   position: relative;
   top: 11rem;
+  left: 0.3rem;
 }
 .div6 .inside-div6-img-txt {
   display: flex;
