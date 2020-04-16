@@ -1,88 +1,91 @@
 body {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Roboto', sans-serif;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
 }
 
-main{
+main {
   width: 1200px;
   margin: auto;
 }
 
-#nav1 {
+#mobile-nav {
+  display: none;
+}
 
-    background: #131313;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 32px;
-    height: 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-family: 'Roboto', sans-serif;
+#nav1 {
+  background: #131313;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 #nav1 span li {
-    display: inline-block;
-    list-style: none;
-    margin-left: .5rem;
+  display: inline-block;
+  list-style: none;
+  margin-left: 0.5rem;
 }
 
 #nav1 span a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 #nav2 {
-    height: 48px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-    color: #AAAAAA;
-    margin-left: .5rem;
-    margin-right: .7rem;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #aaa;
+  margin-left: 0.5rem;
+  margin-right: 0.7rem;
 }
 
 #nav2 span li {
-    display: inline-block;
-    list-style: none;
-    margin-left: .8rem;
+  display: inline-block;
+  list-style: none;
+  margin-left: 0.8rem;
 }
 
 #nav2 span a {
-    text-decoration: none;
-    color: #AAAAAA;
+  text-decoration: none;
+  color: #aaa;
 }
 
 #icon {
-    height: 48px;
-    width: 48px;
-    border-left: 1px solid rgb(226, 216, 216);
-    align-items: center;
+  height: 48px;
+  width: 48px;
+  border-left: 1px solid rgb(226, 216, 216);
+  align-items: center;
 }
 
 .fa-search {
-   font-size: 17px;
-   margin-left: 18px;
-   margin-top: 15px;
+  font-size: 17px;
+  margin-left: 18px;
+  margin-top: 15px;
 }
 
 #nav3 {
-    height: 30px;
-    background-color: rgb(255, 233, 34);;
-    padding-left: 1.1rem;
-    padding-top: .3rem;
-    align-items: center;
-    font-size: 14px;
+  height: 30px;
+  background-color: rgb(255, 233, 34);
+  padding-left: 1.1rem;
+  padding-top: 0.3rem;
+  align-items: center;
+  font-size: 14px;
 }
 
 #nav3 a {
-    text-decoration: none;
-    color: rgb(26, 25, 25);
+  text-decoration: none;
+  color: rgb(26, 25, 25);
 }
 
 .div-one-after-nav {
@@ -102,9 +105,10 @@ main{
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .inside2-div-one-after-nav {
   position: relative;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%) , url("../images/image5.jpg");
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/image5.jpg");
   background-color: #fff;
   height: 100%;
   background-size: cover;
@@ -127,13 +131,13 @@ main{
   line-height: normal;
 }
 
-.inside2-div-one-after-nav span, .inside3-div-one-after-nav span {
+.inside2-div-one-after-nav span,
+.inside3-div-one-after-nav span {
   position: absolute;
   bottom: 0;
   width: 80%;
   margin-left: 1rem;
   line-height: normal;
-
 }
 
 .div-one-after-nav .inside1-div-one-after-nav span h2 {
@@ -145,32 +149,36 @@ main{
 
 .inside1-div-one-after-nav img {
   position: absolute;
-  bottom: 24rem;;
+  bottom: 24rem;
   color: #fff;
   height: 96px;
 }
 
-.div-one-after-nav .inside2-div-one-after-nav span h2, .div-one-after-nav .inside3-div-one-after-nav span h2 {
+.div-one-after-nav .inside2-div-one-after-nav span h2,
+.div-one-after-nav .inside3-div-one-after-nav span h2 {
   color: #fff;
   font-size: 15px;
   font-weight: 900;
 }
 
-.inside1-div-one-after-nav h5, .inside2-div-one-after-nav h5, .inside3-div-one-after-nav h5 {
+.inside1-div-one-after-nav h5,
+.inside2-div-one-after-nav h5,
+.inside3-div-one-after-nav h5 {
   color: #fff;
 }
 
-.inside1-div-one-after-nav p, .div-one-after-nav .inside2-div-one-after-nav span p, .div-one-after-nav .inside3-div-one-after-nav span p {
+.inside1-div-one-after-nav p,
+.div-one-after-nav .inside2-div-one-after-nav span p,
+.div-one-after-nav .inside3-div-one-after-nav span p {
   color: #a6a6a6;
 }
-
 
 .div3 h2 {
   color: orangered;
   font-weight: 700;
 }
 
-.div3 h2:hover{
+.div3 h2:hover {
   color: #000;
   cursor: pointer;
 }
@@ -207,12 +215,10 @@ main{
 .inside-div3 p {
   font-size: 13px;
   margin-top: 0;
-  color: #AAAAAA;
+  color: #aaa;
 }
 
 .div4-header {
-  /* margin-top: 2rem;
-  margin-bottom: 2rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -224,10 +230,15 @@ main{
 
 .div4 li {
   display: inline-block;
-  padding: 0;
+  padding: 0 4px;
   margin: 0;
   list-style: none;
   font-size: 16px;
+  border-right: 1px solid rgb(218, 51, 9);
+}
+
+.div4 li:last-child {
+  border-right: none;
 }
 
 .div4 a {
@@ -253,13 +264,19 @@ main{
 .col1-image {
   position: relative;
   left: 1rem;
-  bottom: 15.5rem;
+  bottom: 17.5rem;
 }
 
 .col2-image {
   position: relative;
   left: 1rem;
-  bottom: 17.5rem;
+  bottom: 15.5rem;
+}
+
+.col3-image {
+  position: relative;
+  left: 1rem;
+  bottom: 16rem;
 }
 
 .col4-image {
@@ -271,8 +288,8 @@ main{
 .div4-grid-header {
   font-size: 1rem;
   margin: 0;
-  padding-top: .7rem;
-  padding-bottom: .7rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
   padding-left: 6rem;
   background-color: rgb(255, 78, 14);
   color: #fff;
@@ -283,7 +300,7 @@ main{
   background-color: rgb(156, 89, 89);
 }
 
-.div4-grid-inner-div1{
+.div4-grid-inner-div1 {
   padding-bottom: 1.8rem;
   background-color: rgb(245, 209, 217);
 }
@@ -295,7 +312,6 @@ main{
   font-size: 1rem;
   font-weight: 700;
   color: #000;
-
 }
 
 .div4-grid-inner-div1 h5 {
@@ -308,7 +324,7 @@ main{
 
 .div4-grid-inner-div2 {
   padding-left: 1rem;
-  color: #555555;
+  color: #555;
 }
 
 .div4-grid-inner-div2 p {
@@ -320,11 +336,11 @@ main{
   line-height: 1.5rem;
   padding-left: 1rem;
   padding-right: 1.5rem;
-  color: #555555
+  color: #555;
 }
 
 .lastp span {
-  color: #AAAAAA;
+  color: #aaa;
 }
 
 .fa-tag {
@@ -334,7 +350,6 @@ main{
 
 /* div6 to be added here */
 
-
 .div6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -343,62 +358,63 @@ main{
 
 .inside3-div6 {
   background-color: yellow;
-  height: 20rem;;
+  height: 20rem;
 }
 
 #in1 {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%) , url("../images/image5.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/image5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #in0 {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%) , url("../images/image7.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/image7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #in2 {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%) , url("../images/images8.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/images8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #in3 {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%) , url("../images/images9.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/images9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #in4 {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%) , url("../images/images11.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/images11.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #in5 {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%) , url("../images/images12.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/images12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #in6 {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%) , url("../images/images13.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/images13.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 #in7 {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%) , url("../images/images2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/images2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .div6 h2 {
@@ -430,21 +446,20 @@ main{
   top: 11rem;
   left: 0.3rem;
 }
+
 .div6 .inside-div6-img-txt {
   display: flex;
-
 }
+
 .div6 .inside-div6-img-txt img {
   width: 10rem;
   height: 7rem;
-
 }
 
 .div6 .inside-div6-img-txt p {
   color: orangered;
   margin-bottom: 0;
   margin-top: 0;
-
 }
 
 .div6 .inside-div6-img-txt h6 {
@@ -462,15 +477,16 @@ main{
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: .9rem;
-  color: #555555;
+  font-size: 0.9rem;
+  color: #555;
 }
 
-.list-div6 li{
-  margin-bottom: .7rem;
+.list-div6 li {
+  margin-bottom: 0.7rem;
   border-bottom: 1px solid #aaa;
 }
-.div6 .list-div6 li::before{
+
+.div6 .list-div6 li::before {
   content: "\2022";
   color: orangered;
   font-weight: bold;
@@ -480,7 +496,7 @@ main{
 }
 
 footer {
-  background-image: linear-gradient(to bottom,#1a1a1a 50%, #000 50%);
+  background-image: linear-gradient(to bottom, #1a1a1a 50%, #000 50%);
   width: 100%;
   height: 20rem;
   padding-top: 2rem;
@@ -500,12 +516,12 @@ footer ul li a i {
   color: #fff;
   font-size: 2rem;
 }
+
 footer ul {
   list-style: none;
   display: flex;
   justify-content: center;
   align-content: flex-end;
-
 }
 
 footer p {
@@ -513,5 +529,18 @@ footer p {
   font-size: 12px;
   text-align: center;
   margin-top: 6rem;
+}
 
+footer p span {
+  color: red;
+}
+
+#tnw-white-logo {
+  width: 40px;
+  height: 20px;
+}
+
+#stackpath {
+  height: 30px;
+  width: 60px;
 }
