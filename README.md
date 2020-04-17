@@ -12,8 +12,6 @@
 ![screenshot](./images/Screenshot8.png)
 ![screenshot](./images/Screenshot9.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
 - HTML 5
