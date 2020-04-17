@@ -28,6 +28,15 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
+#nav1  ul li {
+  display: inline-block;
+  padding-left: 1rem;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 0.5rem;
+  color: #fff;
+}
+
 footer ul li a {
   color: #fff;
   text-decoration: none;
@@ -70,12 +79,6 @@ footer ul li {
   color: black;
 }
 
-#nav1 span li {
-  display: inline-block;
-  list-style: none;
-  margin-left: 0.5rem;
-}
-
 .inside-div3 a:hover {
   text-decoration: underline;
   color: orangered;
@@ -86,7 +89,7 @@ footer ul li {
   color: rgb(26, 25, 25);
 }
 
-#nav1 span a {
+#nav1 a {
   text-decoration: none;
   color: #fff;
 }
@@ -102,13 +105,13 @@ footer ul li {
   margin-right: 0.7rem;
 }
 
-#nav2 span li {
+#nav2 ul li {
   display: inline-block;
   list-style: none;
   margin-left: 0.8rem;
 }
 
-#nav2 span a {
+#nav2 a {
   text-decoration: none;
   color: #aaa;
 }
@@ -150,7 +153,7 @@ footer p span {
   color: red;
 }
 
-.inside3-div6 div {
+.inside3-div6 .text {
   position: relative;
   top: 11rem;
   left: 0.3rem;
@@ -191,8 +194,8 @@ footer p span {
   background-position: center;
 }
 
-.inside2-div-one-after-nav span,
-.inside3-div-one-after-nav span {
+.inside2-div-one-after-nav .text,
+.inside3-div-one-after-nav .text {
   position: absolute;
   bottom: 0;
   width: 80%;
@@ -234,13 +237,11 @@ footer p span {
   color: #aaa;
 }
 
-.inside1-div-one-after-nav p,
-.div-one-after-nav .inside2-div-one-after-nav span p,
-.div-one-after-nav .inside3-div-one-after-nav span p {
+.div-one-after-nav p {
   color: #a6a6a6;
 }
 
-.div-one-after-nav .inside1-div-one-after-nav span {
+.div-one-after-nav .inside1-div-one-after-nav .text {
   position: absolute;
   bottom: 0;
   width: 80%;
@@ -248,7 +249,7 @@ footer p span {
   line-height: normal;
 }
 
-.div-one-after-nav .inside1-div-one-after-nav span h2 {
+.div-one-after-nav .inside1-div-one-after-nav  h2 {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
@@ -262,16 +263,14 @@ footer p span {
   height: 96px;
 }
 
-.div-one-after-nav .inside2-div-one-after-nav span h2,
-.div-one-after-nav .inside3-div-one-after-nav span h2 {
+.div-one-after-nav .inside2-div-one-after-nav h2,
+.div-one-after-nav .inside3-div-one-after-nav h2 {
   color: #fff;
   font-size: 15px;
   font-weight: 900;
 }
 
-.inside1-div-one-after-nav h5,
-.inside2-div-one-after-nav h5,
-.inside3-div-one-after-nav h5 {
+.div-one-after-nav h5 {
   color: #fff;
 }
 
@@ -405,60 +404,42 @@ footer p span {
   height: 20rem;
 }
 
-#in1 {
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/image5.jpg");
+#in1, #in0, #in2, #in3, #in4, #in5, #in6,  #in7 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+#in1 {
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/image5.jpg");
+
 }
 
 #in0 {
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/image7.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #in2 {
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/images8.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #in3 {
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/images9.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #in4 {
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/images11.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #in5 {
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/images12.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #in6 {
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/images13.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #in7 {
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #000 90%), url("../images/images2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .div6 h1 {
@@ -489,6 +470,12 @@ footer p span {
 .div6 .inside-div6-img-txt h6:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.inside-div6-img-txt p {
+  color: orangered;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .div6 .list-div6 {
