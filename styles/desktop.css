@@ -519,14 +519,27 @@ footer {
 
 footer ul li a i {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 footer ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  align-content: flex-end;
+  padding: 0;
+}
+
+.f-icon-list {
+  border-radius: 50%;
+  background-color: #333;
+  height: 40px;
+  width: 40px;
+  margin: 0 0.5rem;
+}
+
+.f-icon-list i {
+  margin-top: 10px;
+  margin-left: 13px;
 }
 
 #tnw-white-logo {
