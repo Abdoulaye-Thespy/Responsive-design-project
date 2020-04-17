@@ -92,6 +92,13 @@ footer ul li a {
   color: orangered;
 }
 
+#textlast {
+  color: #fff;
+  margin-left: 80%;
+  font-size: 20px;
+
+}
+
 #nav3 a {
   text-decoration: none;
   color: rgb(26, 25, 25);
@@ -179,7 +186,7 @@ footer p span {
 .inside1-div-one-after-nav {
   position: relative;
   grid-row: 1 / span 2;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 15%, #000 85%), url("../images/image4.jpg");
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, #ff1a1a 80%, #000 100%), url("../images/image4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

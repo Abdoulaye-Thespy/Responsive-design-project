@@ -27,6 +27,10 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  #textlast{
+    display: none;
+  }
+
   .div4-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 0;
@@ -48,6 +52,10 @@
 }
 
 @media only screen and (max-width: 757px) {
+  #textlast
+  {
+    display: none;
+  }
   body {
     width: auto;
     margin-left: auto;
