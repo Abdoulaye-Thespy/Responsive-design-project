@@ -55,6 +55,13 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  .div-one-after-nav .inside1-div-one-after-nav h2 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+  } 
+
   .div4-grid {
     display: grid;
     grid-template-columns: 1fr;
